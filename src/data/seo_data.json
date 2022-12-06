@@ -1,0 +1,953 @@
+{
+    "success":true,
+    "data":{
+      "id":2769,
+      "input":{
+        "url":"yourwebsite.com",
+        "pdf":true,
+        "callback":false,
+        "template":false
+      },
+      "output":{
+        "success":true,
+        "callback":false,
+        "pdf":"https://seoptimer.com/download-pdf.inc/UMT0qz73rOzOx_3t",
+        "recommendation_count":10,
+        "screenshot":"https://seoptimer.com/screenshots/38bi5EomtNJIIZc-KtJ2hMm9wtSxjnfW-desktop.jpg",
+        "report_generation_time":"48 second(s)",
+        "request_completion_time":"1 minute(s) 4 second(s)",
+        "scores": {
+          "overall": {
+            "grade": "A",
+            "title": "Your page is good",
+            "description": ""
+          },
+          "seo": {
+            "grade": "A",
+            "title": "Your On-Page SEO is good",
+            "description": "Your page is largely optimized for On-Page SEO performance. On-Page SEO optimization is important to ensure you can maximize ranking potential and drive traffic to your website from search engines. You can continue to build on your position by ensuring On and Off-Page factors highlighted here are improved, as well as through application of On-Page SEO strategies like content generation and link building."
+          },
+          "links": {
+            "grade": "A+",
+            "title": "",
+            "description": ""
+          },
+          "ui": {
+            "grade": "A+",
+            "title": "Your usability is very good!",
+            "description": "Your page is highly usable across devices. Usability is important to maximize your available audience and minimize user bounce rates (which can indirectly affect your search engine rankings)."
+          },
+          "performance": {
+            "grade": "A+",
+            "title": "Your performance is very good!",
+            "description": "Congratulations, your page has performed very well in our testing meaning it should be reasonably fast and responsive for users. Performance is important to ensure a good user experience, and reduced bounce rates (which can also indirectly affect your search engine rankings). Continue to monitor your performance over time to ensure there are no periodic fluctuations."
+          },
+          "social": {
+            "grade": "D+",
+            "title": "Your social could be better",
+            "description": "You do not appear to have a strong social presence or level of social activity (or we may just not be able to see your profiles!). Social activity is important for customer communication, brand awareness and as a marketing channel to bring more visitors to your website. We recommend that you have all of your profiles listed on your page for visibility, and work to build a following on those networks."
+          },
+          "security": {
+            "grade": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "title":{
+          "section":"seo",
+          "passed":true,
+          "shortAnswer":"You have a title tag of optimal length (between 10 and 70 characters).",
+          "recommendation":null,
+          "value":"57",
+          "data":"Easy Website Builder - Create a Website | Yourwebsite.com"
+        },
+        "description":{
+          "section":"seo",
+          "passed":true,
+          "shortAnswer":"Your page has a meta description of optimal length (between 70 and 320 characters).",
+          "recommendation":null,
+          "value":"154",
+          "data":"Create your own website today with the best drag-and-drop website builder! Get fast hosting and all the tools you need to create a custom site in minutes."
+        },
+        "headers":{
+          "section":"seo",
+          "passed":true,
+          "shortAnswer":"Your page is making good use of header tags.",
+          "recommendation":null,
+          "data":{
+            "h1":[
+              "Start Your Dreamby Creating a Website"
+            ],
+            "h2":[
+              "Your DreamStart Here.",
+              "Unlimited PossibilitiesFor Your Dream",
+              "Wish to Own Your Online Store?\nStart Selling Today.",
+              "Stick With Your Dream\nWe'll Help You Grow.",
+              "Start Your Dream With Our Website Builder.",
+              "We've Got Your back 24/7",
+              "Frequently AskedQuestions (FAQs)",
+              "Create Your WebsiteIn Minutes"
+            ],
+            "h3":[
+              "Good for photographers",
+              "Perfect for shopowners",
+              "Designers will love this",
+              "Let your creativity shine",
+              "Great for startups",
+              "See how easy it is to create a website",
+              "Products",
+              "Add-ons",
+              "Company",
+              "Support"
+            ],
+            "h4":[
+              "Web Hosting",
+              "SSL Certificate",
+              "SEO",
+              "Cloud Backup",
+              "Email Marketing",
+              "VPN",
+              "Choose a template",
+              "Get a domain name",
+              "Add Your Content",
+              "Publish Your Site",
+              "Market Your Site",
+              "Do I need to know code to use the site builder?",
+              "Can I cancel my plan?",
+              "I already own a domain, can I use it with Yourwebsite?",
+              "Are the website builder templates mobile-friendly?",
+              "I use a different website builder, why should I use yours?",
+              "Is the website maker easy to use?"
+            ]
+          }
+        },
+        "keywords": {
+          "section": "seo",
+          "passed": false,
+          "shortAnswer": "Keyword Consistency Too Low",
+          "recommendation": "Use your main keywords across the important HTML tags",
+          "data": {
+            "keywords": [
+              {
+                "word": "website",
+                "count": 15,
+                "title": true,
+                "description": true,
+                "headers": true
+              },
+              {
+                "word": "create",
+                "count": 7,
+                "title": true,
+                "description": true,
+                "headers": true
+              },
+              {
+                "word": "start",
+                "count": 7,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "online",
+                "count": 7,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "site",
+                "count": 6,
+                "title": true,
+                "description": true,
+                "headers": true
+              },
+              {
+                "word": "dream",
+                "count": 6,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "marketing",
+                "count": 5,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "builder",
+                "count": 5,
+                "title": true,
+                "description": true,
+                "headers": true
+              }
+            ],
+            "phrases": [
+              {
+                "word": "create your website",
+                "count": 4,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "website builder",
+                "count": 4,
+                "title": true,
+                "description": true,
+                "headers": true
+              },
+              {
+                "word": "online store",
+                "count": 3,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "web hosting",
+                "count": 3,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "cloud backup",
+                "count": 3,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "email marketing",
+                "count": 3,
+                "title": false,
+                "description": false,
+                "headers": true
+              },
+              {
+                "word": "features templates",
+                "count": 2,
+                "title": false,
+                "description": false,
+                "headers": false
+              },
+              {
+                "name": "Yoast SEO",
+                "icon": "/img/icons/app/Yoast SEO.png",
+                "website": "http://yoast.com",
+                "version": "15.4"
+              }
+            ]
+          }
+        },
+        "contentLength": {
+          "section": "seo",
+          "passed": false,
+          "shortAnswer": "Page Text Content Too Short",
+          "recommendation": "Increase Page text content",
+          "value": "472"
+        },
+        "imageAlt": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "You do not have any images missing ALT attributes on your page.",
+          "recommendation": null,
+          "data": {
+            "total": 40,
+            "altCount": 40,
+            "noAltCount": 0
+          }
+        },
+        "backlinks": {
+          "section": "links",
+          "passed": true,
+          "shortAnswer": "There is a strong level of backlink activity to this website.",
+          "recommendation": null,
+          "data": {
+            "backlinks": 611590,
+            "allbacklinks": 611590,
+            "mozda": null,
+            "referring_domains": 26392,
+            "domain_strength": 58
+          }
+        },
+        "backlinksList": {
+          "section": "links",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": {
+            "list": [
+              {
+                "domain_authority": 7,
+                "url": "http://www.journal-social.mcu.ac.th/",
+                "title": "วารสาร มจร สังคมศาสตร์ปริทรรศน์ (Journal Social Science, MCU)",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 4,
+                "url": "https://barnyarddesigns.com/",
+                "title": "Barnyard Designs | Farmhouse Style Home Decor | Rustic & Vintage",
+                "anchor_text": "http://yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "https://fotovideodrone.nl/category/geen-categorie/page/13/",
+                "title": "foto video drone -   Geen categorie",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "https://www.444angel.com/dual-sidebar-page/",
+                "title": "Dual Sidebar Page | 444 Angel",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "https://fasterbay.eu/Sonnenblumenkerne-schwarz-25-kg-in-10-T%C3%BCten-Winter-Vogel-Futter-NEUE-ERNTE-163772917699.shtml",
+                "title": "Sonnenblumenkerne schwarz 25 kg (in 10 Tüten) Winter, Vogel Futter NEUE",
+                "anchor_text": "My Website",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "https://www.tick-safety.com/portfolio-items/suspendisse-pharetra-urna/",
+                "title": "\n\tWood Tick Safety   –  Suspendisse Pharetra Urna\t",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "http://luisreguinga.pt/portfolio-items/servicos-em-viticultura40/?portfolioID%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D%5B0%5D=100",
+                "title": "\n\tLuís Reguinga   –  SERVIÇOS EM VITICULTURA40\t",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "http://navira.co.id/tag/photo/",
+                "title": "Photo – Navira",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "https://www.fonokart.com/products/summerfield-framed-wall-art-square",
+                "title": "Buy Summerfield Framed Wall Art - Square Online in India - Fonokart | F",
+                "anchor_text": "http://yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              },
+              {
+                "domain_authority": 0,
+                "url": "https://bacharacher-hof.de/category/aktuelles/",
+                "title": "AKTUELLES – Hotel Bacharach – Bacharacher Hof",
+                "anchor_text": "Yourwebsite.com",
+                "target": "http://yourwebsite.com/"
+              }
+            ]
+          }
+        },
+        "referringDomainsList": {
+          "section": "links",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": {
+            "list": [
+              {
+                "domain_strength": 91,
+                "domain": "avada.theme-fusion.com",
+                "links": 1
+              },
+              {
+                "domain_strength": 68,
+                "domain": "www.gq.com.cn",
+                "links": 4
+              },
+              {
+                "domain_strength": 61,
+                "domain": "www.tongliaowang.com",
+                "links": 2
+              },
+              {
+                "domain_strength": 56,
+                "domain": "demo.joomsky.com",
+                "links": 1
+              },
+              {
+                "domain_strength": 55,
+                "domain": "www.helpguide.org",
+                "links": 1
+              },
+              {
+                "domain_strength": 54,
+                "domain": "mediakit.bevnet.com",
+                "links": 1
+              },
+              {
+                "domain_strength": 51,
+                "domain": "k-active.com",
+                "links": 1
+              },
+              {
+                "domain_strength": 50,
+                "domain": "cronon.net",
+                "links": 1
+              },
+              {
+                "domain_strength": 49,
+                "domain": "dulich.thethaovanhoa.vn",
+                "links": 2
+              },
+              {
+                "domain_strength": 47,
+                "domain": "komspi.mk",
+                "links": 1
+              }
+            ]
+          }
+        },
+        "onPageLinks": {
+          "section": "links",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": {
+            "total": 44,
+            "filesCount": 0,
+            "externalCount": 13,
+            "nofollowCount": 6,
+            "externalPercentage": 30,
+            "nofollowPercentage": 14
+          }
+        },
+        "brokenLinks": {
+          "section": "links",
+          "passed": null,
+          "shortAnswer": null,
+          "recommendation": null,
+          "data": null
+        },
+        "friendlyUrls": {
+          "section": "links",
+          "passed": true,
+          "shortAnswer": "Your page links appear friendly (easily human or search engine readable).",
+          "recommendation": null
+        },
+        "noindexTags": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "Your page is not using the Noindex Tag which prevents indexing.",
+          "recommendation": null,
+          "data": null
+        },
+        "noindexHeaders": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "Your page is not using the Noindex Header which prevents indexing.",
+          "recommendation": null,
+          "data": null
+        },
+        "robotsTxt": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "Your website appears to have a robots.txt file.",
+          "recommendation": null,
+          "data": "http://yourwebsite.com/robots.txt"
+        },
+        "sitemap": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "Your website appears to have an XML sitemap.",
+          "recommendation": null,
+          "data": {
+            "found": 0,
+            "tested": 7,
+            "urls": [
+              "https://yourwebsite.com/sitemap.xml"
+            ]
+          }
+        },
+        "analytics": {
+          "section": "seo",
+          "passed": false,
+          "shortAnswer": "Analytics Tracking Missing",
+          "recommendation": "Implement an analytics tracking tool",
+          "data": []
+        },
+        "schemaOrg": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "Your page is using Schema.org structured data.",
+          "recommendation": null,
+          "data": "JSON-LD"
+        },
+        "topKeywordRankings": {
+          "section": "rankings",
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": {
+            "keywords": [
+              {
+                "keyword": "your website",
+                "country": "IN",
+                "language": "EN",
+                "position": 1,
+                "total_searches": 320,
+                "estimated_traffic": 97
+              },
+              {
+                "keyword": "your website",
+                "country": "CA",
+                "language": "EN",
+                "position": 1,
+                "total_searches": 50,
+                "estimated_traffic": 15
+              },
+              {
+                "keyword": "fast hosts login",
+                "country": "GB",
+                "language": "EN",
+                "position": 93,
+                "total_searches": 6600,
+                "estimated_traffic": 13
+              },
+              {
+                "keyword": "favicon sizes",
+                "country": "US",
+                "language": "EN",
+                "position": 85,
+                "total_searches": 6600,
+                "estimated_traffic": 13
+              },
+              {
+                "keyword": "what is a favicon",
+                "country": "US",
+                "language": "EN",
+                "position": 41,
+                "total_searches": 4400,
+                "estimated_traffic": 9
+              },
+              {
+                "keyword": "our website",
+                "country": "IN",
+                "language": "EN",
+                "position": 4,
+                "total_searches": 140,
+                "estimated_traffic": 9
+              },
+              {
+                "keyword": "err_connection_refused",
+                "country": "EG",
+                "language": "AR",
+                "position": 37,
+                "total_searches": 2900,
+                "estimated_traffic": 6
+              },
+              {
+                "keyword": "vpn speed",
+                "country": "IN",
+                "language": "EN",
+                "position": 36,
+                "total_searches": 2900,
+                "estimated_traffic": 6
+              },
+              {
+                "keyword": "err_connection_refused",
+                "country": "DE",
+                "language": "DE",
+                "position": 46,
+                "total_searches": 2400,
+                "estimated_traffic": 5
+              },
+              {
+                "keyword": "favicon size",
+                "country": "GB",
+                "language": "EN",
+                "position": 73,
+                "total_searches": 1900,
+                "estimated_traffic": 3
+              }
+            ]
+          }
+        },
+        "totalTrafficFromSearch": {
+          "section": "rankings",
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": {
+            "total": 414
+          }
+        },
+        "keywordPositions": {
+          "section": "rankings",
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": {
+            "Position 1": 3,
+            "Position 2-3": 0,
+            "Position 4-10": 17,
+            "Position 11-20": 67,
+            "Position 21-30": 97,
+            "Position 31-100": 1008
+          }
+        },
+        "deviceRendering": {
+          "section": "ui",
+          "passed": null,
+          "shortAnswer": "This check visually demonstrates how your page renders on different devices. It is important that your page is optimized for mobile and tablet experiences as today the majority of web traffic comes from these sources.",
+          "recommendation": null,
+          "data": {
+            "mobile": "https://api.seoptimer.loc/screenshots/-sPl-md7qaWdZx0p5wLC4-rVSGIzCcde-mobile.jpg",
+            "tablet": "https://api.seoptimer.loc/screenshots/-sPl-md7qaWdZx0p5wLC4-rVSGIzCcde-tablet.jpg"
+          }
+        },
+        "mobileViewport": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "Your page specifies a viewport matching the device's size, allowing it to render appropriately across devices.",
+          "recommendation": null
+        },
+        "flash": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "No Flash content has been identified on your page.",
+          "recommendation": null
+        },
+        "iframe": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "There are no iFrames detected on your page.",
+          "recommendation": null
+        },
+        "favicon": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "Your page has specified a favicon.",
+          "recommendation": null
+        },
+        "legibleFonts": {
+          "section": "ui",
+          "passed": false,
+          "shortAnswer": "Ineligible Text",
+          "recommendation": "Review and Increase Font Sizes across devices"
+        },
+        "tapTargetSizing": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "The links and buttons on your page appear to be appropriately sized for a user to easily tap on a touchscreen.",
+          "recommendation": null
+        },
+        "serverResponseTime": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "Your page's server response time is reasonably low which is good for load speed and user experience.",
+          "recommendation": null,
+          "data": {
+            "responseTime": 321,
+            "loadTime": 3273,
+            "completeTime": 8889
+          }
+        },
+        "pageSize": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "Your page's file size is reasonably low which is good for Page Load Speed and user experience.",
+          "recommendation": null,
+          "data": {
+            "totalSize": 4969893,
+            "htmlSize": 168920,
+            "cssSize": 1870879,
+            "jsSize": 1251827,
+            "imageSize": 734107,
+            "otherSize": 944160
+          }
+        },
+        "numberOfResources": {
+          "section": "performance",
+          "passed": null,
+          "shortAnswer": "This check displays the total number of files that need to be retrieved from web servers to load your page. As a general rule, having more files to retrieve increases the number of server requests and can subsequently increase page load time. It is a good idea to removing unnecessary files or consolidate files like styles and scripts where possible.",
+          "recommendation": null,
+          "data": {
+            "total": 62,
+            "images": 7,
+            "css": 36,
+            "js": 5,
+            "html": 4,
+            "other": 10
+          }
+        },
+        "hasAmp": {
+          "section": "performance",
+          "passed": null,
+          "shortAnswer": "This page does not appear to have AMP Enabled.",
+          "recommendation": null,
+          "data": {
+            "isAmpOpenTag": false,
+            "isAmpScriptTag": false,
+            "hasAmpBoilerplate": false,
+            "hasAmpCustomStyles": false,
+            "hasAmpImgTag": false,
+            "hasCanonicalLink": true
+          }
+        },
+        "javascriptErrors": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "Your page is not reporting any JavaScript errors.",
+          "recommendation": null
+        },
+        "gzip": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "Your website is using GZIP compression.",
+          "recommendation": null,
+          "data": []
+        },
+        "optimizedImages": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "All of the images on your page appear to be optimized.",
+          "recommendation": null
+        },
+        "minified": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "All your JavaScript and CSS files appear to be minified.",
+          "recommendation": null,
+          "data": []
+        },
+        "deprecated": {
+          "section": "performance",
+          "passed": true,
+          "shortAnswer": "No deprecated HTML tags have been found within your page.",
+          "recommendation": null
+        },
+        "inlineCss": {
+          "section": "performance",
+          "passed": false,
+          "shortAnswer": "Inline Styles Found",
+          "recommendation": "Remove inline styles"
+        },
+        "facebookLink": {
+          "section": "social",
+          "passed": true,
+          "shortAnswer": "Your page has a link to a Facebook Page.",
+          "recommendation": null
+        },
+        "facebookPixel": {
+          "section": "social",
+          "passed": false,
+          "shortAnswer": "No Facebook Pixel",
+          "recommendation": "Setup & Install a Facebook Pixel",
+          "data": []
+        },
+        "twitterLink": {
+          "section": "social",
+          "passed": false,
+          "shortAnswer": "Twitter Page Link Not Found",
+          "recommendation": "Create and link your Twitter profile"
+        },
+        "twitterTags": {
+          "section": "social",
+          "passed": true,
+          "shortAnswer": "Your page is using Twitter Cards.",
+          "recommendation": null,
+          "data": {
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Create your own website in minutes",
+            "twitter:description": "Use a powerful website builder on Yourwebsite.com to create fabulous professional and responsive internet sites. You can easily customise, build and design your website in a matter of minutes.",
+            "twitter:image": "https://yourwebsite.com/wp-content/uploads/2020/06/musician-yourwebsite.png",
+            "twitter:label1": "Written by",
+            "twitter:data1": "Silvan",
+            "twitter:label2": "Est. reading time",
+            "twitter:data2": "4 minutes"
+          }
+        },
+        "twitterActivity": false,
+        "instagramLink": {
+          "section": "social",
+          "passed": false,
+          "shortAnswer": "Instagram Profile Link Not Found",
+          "recommendation": "Create and link associated Instagram profile"
+        },
+        "youtubeLink": {
+          "section": "social",
+          "passed": true,
+          "shortAnswer": "Your page has a link to a YouTube channel.",
+          "recommendation": null
+        },
+        "youtubeActivity": {
+          "section": "social",
+          "passed": false,
+          "shortAnswer": "YouTube Subscriber Activity Low",
+          "recommendation": "Increase your YouTube channel subscribers",
+          "data": {
+            "subscribers": 17,
+            "views": 641
+          }
+        },
+        "linkedInLink": {
+          "section": "social",
+          "passed": true,
+          "shortAnswer": "Your page has a link to a LinkedIn profile.",
+          "recommendation": null,
+          "data": null
+        },
+        "openGraphTags": {
+          "section": "social",
+          "passed": true,
+          "shortAnswer": "Your page is using Facebook Open Graph Tags.",
+          "recommendation": null,
+          "data": {
+            "og:locale": "en_US",
+            "og:type": "website",
+            "og:title": "Make your own website in minutes",
+            "og:description": "Use a powerful website builder on Yourwebsite.com to create fabulous professional and responsive internet sites. You can easily customise, build and design your website in a matter of minutes.",
+            "og:url": "https://yourwebsite.com/",
+            "og:site_name": "yourwebsite.com",
+            "og:image": "https://yourwebsite.com/wp-content/uploads/2020/06/musician-yourwebsite.png",
+            "og:image:width": "1238",
+            "og:image:height": "1030"
+          }
+        },
+        "sslEnabled": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "Your website has SSL enabled.",
+          "recommendation": null
+        },
+        "httpsRedirect": {
+          "section": "seo",
+          "passed": true,
+          "shortAnswer": "Your page successfully redirects to a HTTPS (SSL secure) version.",
+          "recommendation": null
+        },
+        "malware": {
+          "section": "security",
+          "passed": null,
+          "shortAnswer": null,
+          "recommendation": null,
+          "data": null
+        },
+        "email": {
+          "section": "ui",
+          "passed": true,
+          "shortAnswer": "No email addresses have been found in plain text on your page.",
+          "recommendation": null
+        },
+        "technologies": {
+          "section": "technology",
+          "passed": null,
+          "shortAnswer": "These software or coding libraries have been identified on your page.",
+          "recommendation": null,
+          "data": [
+            "animate.css",
+            "Bootstrap",
+            "CloudFlare",
+            "Elementor",
+            "Font Awesome",
+            "Google Font API",
+            "Google Tag Manager",
+            "jQuery",
+            "MySQL",
+            "OWL Carousel",
+            "PHP",
+            "WordPress",
+            "WP Rocket",
+            "Yoast SEO"
+          ]
+        },
+        "ip": {
+          "section": "technology",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": "172.67.200.250"
+        },
+        "dns": {
+          "section": "technology",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": "boyd.ns.cloudflare.comtia.ns.cloudflare.com"
+        },
+        "webServer": {
+          "section": "technology",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": "cloudflare"
+        },
+        "charset": {
+          "section": "technology",
+          "passed": null,
+          "shortAnswer": "",
+          "recommendation": null,
+          "data": "text/html"
+        },
+        "recommendations":[
+          {
+            "priority":"medium",
+            "section":"performance",
+            "recommendation":"Reduce your total page file size"
+          },
+          {
+            "priority":"low",
+            "section":"seo",
+            "recommendation":"Use your main keywords across the important HTML tags"
+          },
+          {
+            "priority":"low",
+            "section":"social",
+            "recommendation":"Increase your YouTube channel subscribers"
+          },
+          {
+            "priority":"low",
+            "section":"seo",
+            "recommendation":"Implement an analytics tracking tool"
+          },
+          {
+            "priority":"low",
+            "section":"seo",
+            "recommendation":"Add ALT attributes to all images"
+          },
+          {
+            "priority":"low",
+            "section":"seo",
+            "recommendation":"Increase Page text content"
+          },
+          {
+            "priority":"low",
+            "section":"social",
+            "recommendation":"Setup & Install a Facebook Pixel"
+          },
+          {
+            "priority":"low",
+            "section":"performance",
+            "recommendation":"Remove inline styles"
+          },
+          {
+            "priority":"low",
+            "section":"social",
+            "recommendation":"Create and link your Twitter profile"
+          },
+          {
+            "priority":"low",
+            "section":"social",
+            "recommendation":"Create and link associated Instagram profile"
+          }
+        ]
+      },
+      "created_at":"2020-09-15 07:53:31",
+      "completed_at":"2020-09-15 07:54:35"
+    }
+}
