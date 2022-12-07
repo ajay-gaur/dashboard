@@ -1,11 +1,7 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import './App.css'
-
-import Sidebar from "./components/sidebar/Sidebar.jsx"
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import React from 'react'
 import Seo from './pages/Seo/Seo'
 import Crawler from './pages/crawler/Crawler'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
 
