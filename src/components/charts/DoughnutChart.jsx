@@ -8,7 +8,7 @@ const Chart = ({grade}) => {
     
     ChartJS.register(ArcElement, Tooltip, Legend);
 
-    function grade_color(grade) {   
+    function gradeColor(grade) {   
         let bgColor; 
         switch(grade){
             case 'A':
@@ -65,7 +65,7 @@ const Chart = ({grade}) => {
 
     const gradeArr = ['A+', 'A', 'B+', 'B', 'C+', 'C', 'D+', 'D', 'E+', 'E', 'F'];
     const shadePercent = 12 - (gradeArr.indexOf(grade) + 1)
-    const shading = grade_color(grade); 
+    const shading = gradeColor(grade); 
 
     const [chartData, setChartData] = React.useState({
         datasets:[{
@@ -81,7 +81,7 @@ const Chart = ({grade}) => {
     })
 
   return (
-    <div className='doughnut-wrapper' data-content={grade} data-color={grade_color(grade)}>
+    <div className='doughnut-wrapper max-w-[200px] flex flex-col items-center before:content-[attr(data-content)] before:relative before:top-[50%] before:text-5xl ' data-content={grade} data-color={gradeColor(grade)}>
         <Doughnut data={chartData} />
     </div>
   )

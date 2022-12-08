@@ -1,16 +1,16 @@
-.doughnut-wrapper{
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &::before{
-        content: attr(data-content);
-        position: relative;
-        top: 50%;
-        font-size: 50px;
-        color: eval(attr(data-color));
-        // color: red
+// .doughnut-wrapper{
+//     max-width: 200px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     &::before{
+//         content: attr(data-content);
+//         position: relative;
+//         top: 50%;
+//         font-size: 50px;
+//         color: eval(attr(data-color));
+//         // color: red
 
-    }
-}
+//     }
+// }
 

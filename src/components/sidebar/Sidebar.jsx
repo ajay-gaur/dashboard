@@ -17,7 +17,7 @@ const Sidebar = () => {
             <span>Crawler</span>
           </li>
             </Link>
-          <Link to="/seo" style={{ textDecoration: "none" }}>
+          <Link to="/seo-report" style={{ textDecoration: "none" }}>
             <li>
               <span>SEO Report</span>
             </li>

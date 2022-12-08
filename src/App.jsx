@@ -1,5 +1,5 @@
 import React from 'react'
-import Seo from './pages/Seo/Seo'
+import SeoReport from './pages/seoReport/SeoReport'
 import Crawler from './pages/crawler/Crawler'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Seo/>} />
-            <Route path="/seo" element={<Seo/>} />
+          <Route path="/" element={<SeoReport/>} />
+            <Route path="/seo-report" element={<SeoReport/>} />
             <Route path="/crawler" element={<Crawler />} />
         </Routes>
       </Router>
