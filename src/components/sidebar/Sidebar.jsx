@@ -13,15 +13,15 @@ const Sidebar = () => {
       <div className="center">
         <ul>
             <Link to="/crawler" style={{ textDecoration: "none" }}>
-          <li>
-            <span>Crawler</span>
-          </li>
+              <li>
+                <span>Crawler</span>
+              </li>
             </Link>
-          <Link to="/seo-report" style={{ textDecoration: "none" }}>
-            <li>
-              <span>SEO Report</span>
-            </li>
-          </Link>
+            <Link to="/seo-report" style={{ textDecoration: "none" }}>
+              <li>
+                <span>SEO Report</span>
+              </li>
+            </Link>
         </ul>
       </div>
     </div>

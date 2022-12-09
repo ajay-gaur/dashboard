@@ -6,37 +6,38 @@ const OnPageSeo = ({seoData}) => {
   // const grade = seodata.data.output;
   return (
     <>
-    <div className='onPageSeo'>
-      <h2>On-Page SEO Results</h2>
-      <div className='top-sectionn flex items-stretch gap-5 justify-between'>
-        <div className='doughnut-container flex basis-[30%] shadow-lg rounded-lg p-6 justify-center '>
+    {/* <div className='onPageSeo'> */}
+      {/* <h2>On-Page SEO Results</h2> */}
+      
+      <div className='top-sectionn flex items-stretch gap-3 justify-between'>
+        <div className='card doughnut-container flex basis-[30%] shadow-lg rounded-lg p-6 justify-center '>
           <DoughnutChart grade={seoData.scores.links.grade} />
         </div>
-        <div className='basis-[50%] shadow-lg rounded-lg p-6'>
-        <header >
-          <h3 className='text-4xl mb-7'>{seoData.scores.seo.title}</h3>
-          <p>{seoData.scores.seo.description}</p>
-        </header>
+
+        <div className="card basis-1/2">
+            <h4 >{seoData.scores.seo.title}</h4>
+            <p >{seoData.scores.seo.description}</p>
         </div>
-        <div className='shadow-lg rounded-lg p-6 basis-1/2'>
-          <h3>Title Tag</h3>
+
+        <div className='card basis-1/2'>
+          <h4>Title Tag</h4>
           <p>{seoData.title.shortAnswer}</p> 
           <p>Length: {seoData.title.value}</p>  
         </div>
       </div>
 
-      <div className='description flex justify-center gap-5 py-6 '>
-        <div className='shadow-lg rounded-lg p-6 basis-1/2'>
-          <h3>Meta Description Tag</h3>
+      <div className='description flex justify-center gap-3 py-3 '>
+        <div className='card basis-1/2'>
+          <h4>Meta Description Tag</h4>
           <p>{seoData.description.shortAnswer}</p>
         </div>
 
-        <div className='shadow-lg rounded-lg p-6 basis-1/2'>
-          <h3>Header Tags</h3>
+        <div className='card basis-1/2'>
+          <h4>Header Tags</h4>
           <p>{seoData.headers.shortAnswer}</p>
         </div>
 
-        <div  className='shadow-lg rounded-lg p-6 basis-1/2' 
+        <div  className='card basis-1/2' 
         >
           <table>
             <tbody>
@@ -72,12 +73,12 @@ const OnPageSeo = ({seoData}) => {
           </table>
         </div>
 
-        <div className='shadow-lg rounded-lg p-6 basis-1/2'>
-          <h3>Keyword consistency</h3>
+        <div className='card basis-1/2'>
+          <h4>Keyword consistency</h4>
           <p>{seoData.keywords.shortAnswer}</p>
         </div>
       </div>
-    </div>
+    {/* </div> */}
     </>
   )
 }

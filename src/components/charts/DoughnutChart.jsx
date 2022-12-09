@@ -81,7 +81,7 @@ const Chart = ({grade}) => {
     })
 
   return (
-    <div className='doughnut-wrapper max-w-[200px] flex flex-col items-center before:content-[attr(data-content)] before:relative before:top-[50%] before:text-5xl ' data-content={grade} data-color={gradeColor(grade)}>
+    <div className='doughnut-wrapper w-[200px] flex flex-col items-center before:content-[attr(data-content)] before:relative before:top-[50%] before:text-5xl ' data-content={grade} data-color={gradeColor(grade)}>
         <Doughnut data={chartData} />
     </div>
   )
