@@ -1,5 +1,5 @@
 import React from 'react'
-import DoughnutChart from '../charts/DoughnutChart'
+import DoughnutChart from './charts/DoughnutChart'
 
 const Usability = ({seoData}) => {
   const [show, setShow] = React.useState(false)

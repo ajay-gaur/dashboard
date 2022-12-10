@@ -1,11 +1,11 @@
 import React from 'react'
-import DoughnutChart from '../charts/DoughnutChart'
-import GaugeChar from '../charts/GaugeChart'
+import DoughnutChart from './charts/DoughnutChart'
+import GaugeChar from './charts/GaugeChart'
 
 const Performance = ({seoData}) => {
 
 //   const serverArray = [5, 5, 20,40];
-  const serverArray = [0.5, 1, 3];
+  const serverArray = [0, 0.5, 1, 3];
   const allPageArray = [5, 5, 10,25];
   const allPageScriptArray = [10, 5, 5,25];
   const [show, setShow] = React.useState(false)
@@ -44,19 +44,19 @@ const Performance = ({seoData}) => {
             </div>
 
             <div className='flex justify-around'>
-                <div >
+                <div className='flex items-center flex-col '>
                     <h5 className="text-lg text-gray-700">Server Response</h5>
-                    <GaugeChar chartValue = {seoData.serverResponseTime.data.responseTime / 1000} chartData={serverArray}  />
+                    <GaugeChar chartValue = {seoData.serverResponseTime.data.responseTime / 1000} chartData={serverArray}/>
                 </div>
 
-                <div>
+                <div className='flex items-center flex-col '>
                     <h5 className="text-lg text-gray-700">All Page Content Loaded</h5>
-                    <GaugeChar chartValue = {seoData.serverResponseTime.data.loadTime / 1000} chartData={allPageArray}  />
+                    <GaugeChar chartValue = {seoData.serverResponseTime.data.loadTime / 1000} chartData={allPageArray}/>
                 </div>
 
-                <div>
+                <div className='flex items-center flex-col '>
                     <h5 className="text-lg text-gray-700">All Page Scripts Complete</h5>
-                    <GaugeChar chartValue = {seoData.serverResponseTime.data.completeTime / 1000} chartData={allPageScriptArray}  />
+                    <GaugeChar chartValue = {seoData.serverResponseTime.data.completeTime / 1000} chartData={allPageScriptArray}/>
                 </div>
             </div>
         </div>
@@ -70,12 +70,12 @@ const Performance = ({seoData}) => {
 
             <div className='flex justify-around'>
                 {/* TODO-- Gauge graphs */}
-                <div>
+                <div className='flex items-center flex-col '>
                     <h5 className="text-lg text-gray-700">Total Page Size</h5>
                     <GaugeChar chartValue = {seoData.serverResponseTime.data.responseTime / 1000} chartData={serverArray}  />
                 </div>
 
-                <div>
+                <div className='flex items-center flex-col '>
                     <h5 className="text-lg text-gray-700">Page Size Breakdown</h5>
                     <GaugeChar chartValue = {seoData.serverResponseTime.data.responseTime / 1000} chartData={serverArray}  />
                 </div>

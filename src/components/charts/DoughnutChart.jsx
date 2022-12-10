@@ -1,5 +1,4 @@
 import React from 'react'
-import './doughnutChart.scss'
 import { Doughnut } from 'react-chartjs-2'
 import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
 
@@ -12,7 +11,7 @@ const Chart = ({grade}) => {
         let bgColor; 
         switch(grade){
             case 'A':
-                bgColor = "skyblue"
+                bgColor = "green"
                 break
             
             case 'A+':
@@ -20,19 +19,19 @@ const Chart = ({grade}) => {
                 break
     
             case 'B':
-                bgColor = "yellow"
+                bgColor = "lightgreen"
                 break
     
             case 'B+':
-                bgColor = "green"    
+                bgColor = "lightgreen"    
                 break
     
             case 'C':
-                bgColor = "green"
+                bgColor = "lightyellow"
                 break
     
             case 'C+':
-                bgColor = "green"
+                bgColor = "lightyellow"
                 break
     
             case 'D':
@@ -44,15 +43,15 @@ const Chart = ({grade}) => {
                 break   
     
             case 'E':
-                bgColor = "green"    
+                bgColor = "red"    
                 break
     
             case 'E+':
-                bgColor = "green"
+                bgColor = "red"
                 break
     
             case 'F':
-                bgColor = "green"
+                bgColor = "red"
                 break
     
             default:
@@ -80,8 +79,13 @@ const Chart = ({grade}) => {
         }]
     })
 
+    const styles = {
+        color: gradeColor(grade)
+    }
+
+
   return (
-    <div className='doughnut-wrapper w-[200px] flex flex-col items-center before:content-[attr(data-content)] before:relative before:top-[50%] before:text-5xl ' data-content={grade} data-color={gradeColor(grade)}>
+    <div className='doughnut-wrapper w-[200px] flex flex-col items-center before:content-[attr(data-content)] before:relative before:top-[50%] before:text-5xl' data-content={grade} data-color={gradeColor(grade)} style={styles} >
         <Doughnut data={chartData} />
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import DoughnutChart from '../../components/charts/DoughnutChart'
+import DoughnutChart from '../components/charts/DoughnutChart'
 
 const  Links = ({seoData}) => {
   const [show, setShow] = React.useState(false)

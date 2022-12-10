@@ -1,6 +1,8 @@
 .sidebar {
     flex: 1;
-    border-right: 0.5px solid rgb(230, 227, 227);
+    // border-right: 0.5px solid rgb(230, 227, 227);
+
+    box-shadow: 0 0.15rem 0.75rem 0 rgb(33 40 50 / 15%);
     min-height: 100vh;
     background-color: white;
   
@@ -23,28 +25,39 @@
     }
   
     .center {
-      padding-left: 10px;
+      // padding-left: 10px;
+      // margin-left: 10px;
   
       ul {
         list-style: none;
         margin: 0;
         padding: 0;
   
-        .title {
-          font-size: 10px;
-          font-weight: bold;
-          color: #999;
-          margin-top: 15px;
-          margin-bottom: 5px;
-        }
+        // .title {
+        //   font-size: 10px;
+        //   font-weight: bold;
+        //   color: #999;
+        //   margin-top: 15px;
+        //   margin-bottom: 5px;
+        // }
   
         li {
           display: flex;
           align-items: center;
-          padding: 5px;
+          padding: 15px 20px;
           cursor: pointer;
+
+          font-size: 10px;
+          font-weight: bold;
+          color: #999;
+          // padding-top: 10px;
+          // padding-bottom: 10px;
   
           &:hover {
+            background-color: #ece8ff;
+          }
+
+          &:active{
             background-color: #ece8ff;
           }
   

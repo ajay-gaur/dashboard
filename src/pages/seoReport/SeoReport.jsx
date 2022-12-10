@@ -2,13 +2,13 @@ import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import seodata from '../../data/seo_data.json';
 import Seo from '../../components/seo/Seo'
-import Rankings from '../../components/rankings/Rankings'
-import Links from "../../components/links/Links";
-import Usability from '../../components/usability/Usability'
-import Performance from '../../components/performance/Performance'
-import Social from '../../components/social/Social'
-import Technology from "../../components/technology/Technology";
-import AuditResults from '../../components/auditResults/AuditResults'
+import Rankings from '../../components/Rankings'
+import Links from "../../components/Links";
+import Usability from '../../components/Usability'
+import Performance from '../../components/Performance'
+import Social from '../../components/Social'
+import Technology from "../../components/Technology";
+import AuditResults from '../../components/AuditResults'
 
 
 
@@ -18,7 +18,7 @@ const SeoReport = () => {
   return (
     <div className="seo-report flex">
       <Sidebar />
-      <div className="seo-section flex-[6] p-6">
+      <div className="seo-section flex-[6] p-6 pt-0">
         <AuditResults seoData={seoData}/>
         <hr className="border-2"/>
         <Seo seoData={seoData} />

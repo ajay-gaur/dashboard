@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "capture-website": "^3.2.0",
     "chart.js": "^4.0.1",
     "flowbite": "^1.5.4",
     "flowbite-react": "^0.3.7",

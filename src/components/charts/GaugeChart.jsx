@@ -5,13 +5,13 @@ const GaugeChar = ({chartValue, chartData}) => {
 
   console.log(chartValue)
   return (
-    <div className='w-5/6'>
-      <GaugeChart id="gauge-chart2" 
-        nrOfLevels={30} 
+    <div className='w-6/7'>
+      <GaugeChart id="gauge-chart1" 
+        nrOfLevels={3} 
         arcsLength={chartData}
         arcPadding={0.02}
         cornerRadius={1}
-        percent={chartValue} 
+        percent={0.2} 
         colors={["green", "lightgreen", 'red']} 
         arcWidth={0.3}
         textColor={'gray'}

@@ -1,7 +1,7 @@
 import React from 'react'
-import Keywords from './keywords/Keywords'
-import Phrases from './phrases/Phrases'
-import OnPageSeo from './onPageSeo/OnPageSeo'
+import Keywords from './Keywords'
+import Phrases from './Phrases'
+import OnPageSeo from './OnPageSeo'
 
 const Seo = ({seoData}) => {
   const [show, setShow] = React.useState(false)
