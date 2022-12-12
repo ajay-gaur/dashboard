@@ -7,7 +7,7 @@ const Crawler = () => {
   return (
     <div className='crawler'>
         <Sidebar/>
-        <div className='crawler-section'>
+        <div className='crawler-section p-6'>
             <Form />
         </div>
 

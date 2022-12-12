@@ -5,7 +5,7 @@ const OnPageSeo = ({seoData}) => {
 
   const headers = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6' ]
   const headersCount = headers.map(item => seoData.headers.data[item]? seoData.headers.data[item].length : 0 )
-  const percentage = headersCount.map( (item, index) =>  headersCount[index]/Math.max(...headersCount) * 100 + "%" ) 
+  const percentage = headersCount.map( (__ , index) =>  headersCount[index]/Math.max(...headersCount) * 100 + "%" ) 
 
   return (
     <>
