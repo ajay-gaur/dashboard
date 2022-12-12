@@ -6,8 +6,9 @@ const Performance = ({seoData}) => {
 
 //   const serverArray = [5, 5, 20,40];
   const serverArray = [0, 0.5, 1, 3];
-  const allPageArray = [5, 5, 10,25];
-  const allPageScriptArray = [10, 5, 5,25];
+  const allPageArray = [0, 5, 10,20];
+  const allPageScriptArray = [0, 10, 15, 20];
+  const pageSizeArray = [0, 3, 5, 20]
   const [show, setShow] = React.useState(false)
 
 
@@ -72,7 +73,7 @@ const Performance = ({seoData}) => {
                 {/* TODO-- Gauge graphs */}
                 <div className='flex items-center flex-col '>
                     <h5 className="text-lg text-gray-700">Total Page Size</h5>
-                    <GaugeChar chartValue = {seoData.serverResponseTime.data.responseTime / 1000} chartData={serverArray}  />
+                    <GaugeChar chartValue = {seoData.serverResponseTime.data.completeTime / 1000} chartData={pageSizeArray}  />
                 </div>
 
                 <div className='flex items-center flex-col '>
